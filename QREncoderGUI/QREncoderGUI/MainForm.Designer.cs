@@ -15,7 +15,7 @@ namespace QREncoderGUI
             base.Dispose(disposing);
         }
 
-        #region Windows 窗体设计器生成的代码
+        #region
 
         private void InitializeComponent()
         {
