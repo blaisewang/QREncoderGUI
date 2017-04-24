@@ -62,7 +62,7 @@ namespace QREncoderGUI
                 var dataColumnValue = new DataColumn("value", typeof(string));
                 dataTable.Columns.Add(dataColumnKey);
                 dataTable.Columns.Add(dataColumnValue);
-                // add your data here
+                //TODO: add your data here
 
                 labelHint.Text = "";
 
@@ -79,10 +79,9 @@ namespace QREncoderGUI
                 }
                 System.Diagnostics.Process.Start("explorer", DEFAULT_OUTPUT_DIRECTORY);
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 labelHint.Text = "Not Found";
-                Console.WriteLine(DateTime.Now + " " + exception.Message);
             }
         }
 
@@ -96,7 +95,7 @@ namespace QREncoderGUI
 
             outFileString += '.' + imageFormat.ToString();
 
-            //TODO: change your qrcode format here
+            //TODO: change your qrcode content here
             string contents = "key:" + dataRows["key"].ToString() + " value:" + dataRows["value"].ToString();
 
             var barcodeWriter = new BarcodeWriter
