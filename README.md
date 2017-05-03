@@ -4,7 +4,7 @@ QRCode encoder with GUI based on [ZXing.NET](http://zxingnet.codeplex.com/)
 
 ## Preview
 
-![](http://wx3.sinaimg.cn/large/9cbe429fly1fese0e1kjdj20pu0dgaba.jpg) 
+![](https://camo.githubusercontent.com/9f53e93d3707ad91faabac631021bbe9f1cfa526/687474703a2f2f7778332e73696e61696d672e636e2f6c617267652f39636265343239666c7931666573653065316b6a646a323070753064676162612e6a7067) 
 
 
 ## Usage
